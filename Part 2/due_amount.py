@@ -1,8 +1,10 @@
-price = (input("Enter The Price:"))
-pay = int(input("Enter The Payed Amount: "))
+price = float(input("Enter the price: "))
+pay = float(input("Enter the pay amount: "))
 def balance(pay, price):
     return (pay-price)
 
-print("The Due Amount is:", balance(pay, price))
+
+print("Balance amount = ",balance(pay, price))
+
 
 
